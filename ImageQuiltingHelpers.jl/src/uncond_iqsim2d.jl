@@ -2,6 +2,6 @@
 
 function uncond_iqsim2d(TI,templ,nreals);
     TI2=im2TI(TI);
-    sim=iqsim(TI2, templ..., size(TI2)..., nreal=nreals);
+    sim=iqsim(TI2, templ..., size(TI2)..., nreal=nreals, gpu=true);
     return sim;
 end;
