@@ -5,6 +5,7 @@ using ImageQuilting
 using PyPlot
 using Distances
 using JLD
+using StatsBase
 
 include("closest_index.jl")
 include("distMat.jl")
